@@ -9,10 +9,9 @@ local Section = Tab:NewSection("Bloxy hacks")
 Section:NewButton("Fly gui", "Button info", function() 
 
 loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
-Section:NewButton("infinite yield", "Button info", function() 
+Section:NewButton("infinite yield", "Button info", 
 
-Section:NewButton("infinite yield", "Button info", function() 
-print("Clicked") 
+loadstring(game:HttpGet("https://rawscripts.net/raw/Infinite-Yield_500"))()
 
 print("Clicked") 
 end)
