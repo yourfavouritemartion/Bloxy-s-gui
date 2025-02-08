@@ -1,81 +1,91 @@
 /**
- * @name Frosted Glass
- * @author Gibbu#1211
- * @version 2.2.0
- * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required.
- * @invite ZHthyCw
- * @authorId 174868361040232448
- * @source https://github.com/DiscordStyles/FrostedGlass
- * @website https://gibbu.me/
+ * @name midnight
+ * @description A dark, rounded discord theme.
+ * @author refact0r
+ * @version 1.6.2
+ * @invite nz87hXyvcy
+ * @website https://github.com/refact0r/midnight-discord
+ * @source https://github.com/refact0r/midnight-discord/blob/master/midnight.theme.css
+ * @authorId 508863359777505290
+ * @authorLink https://www.refact0r.dev
 */
 
-@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
-/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
-@import url("https://discordstyles.github.io/Addons/windows-titlebar.css");
+@import url('https://raw.githubusercontent.com/yourfavouritemartion/Bloxy-s-gui/refs/heads/main/3wr32');
+
+/* customize things here */
 :root {
-  /*
-   * Background image variables
-   */
-  --background-image: url("https://i.imgur.com/9Spa9CT.png"); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --background-image-blur: 0px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
-  --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
-  --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
-  /*
-   * User Popout variables
-   * This will only affect the user profile (when clicking on a member in the members list)
-   */
-  --popout-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --popout-image-blur: 5px; /* Blur intensity of --popout-image | Must end in px | DEFAULT: 5px */
-  --popout-image-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
-  --popout-image-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
-  /*
-   * Modal & Popout variables
-   */
-  --overlay-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --overlay-image-blur: var(--background-image-blur); /* Blur intensity of --overlay-image | Must end in px | DEFAULT: 5px */
-  --overlay-image-size: var(--background-image-size); /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
-  --overlay-image-position: var(--background-image-position); /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
-  /*
-   * Home image variables
-   */
-  --home-button-image: url("https://discordstyles.github.io/FrostedGlass/discord.svg"); /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --home-button-size: 60%; /* Size of the home button image | DEFAUT: cover */
-  --home-button-position: center; /* Position of home button image | DEAFULT: center */
-  /*
-   * Brightness variables
-   */
-  --serverlist-brightness: 0.8; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-  --left-brightness: 0.8; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-  --middle-brightness: 0.6; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
-  --right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
-  --overlay-brightness: 0.75; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
-  /*
-   * Gradient variables
-   */
-  --gradient-primary: 103, 58, 183; /* DEFAULT: 103,58,183 */
-  --gradient-secondary: 63, 81, 181; /* DEFAULT: 63,81,181 */
-  --gradient-direction: 320deg; /* DEFAULT: 320deg */
-  /*
-   * Tint variables
-   */
-  --tint-colour: 255, 51, 159; /* Colour of tint | DEAFULT: 255,51,159 */
-  --tint-brightness: 0; /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
-  /*
-   * Other variables 
-   */
-  --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
-  --window-roundness: 10px; /* Roundness of Discord | DEFAULT: 10px */
-  --scrollbar-colour: rgb(255, 255, 255, 0.05); /* DEFAULT: rgb(255,255,255,0.05) */
-  --link-colour: #00b0f4; /* DEFAULT: #00b0f4 */
-  /*
-    * Visit https://fonts.google.com and select one to your liking.
-    * Now just follow this tutorial: https://imgur.com/a/CNbw7xC
-    */
-  --font: "gg sans";
-  /*
-   * ~~DO NOT TOUCH~~
-   * Removing this will display an annoying update banner.
-   */
-  --update-notice-1: none;
+	/* font, change to 'gg sans' for default discord font*/
+	--font: 'figtree';
+
+	/* top left corner text */
+	--corner-text: 'Midnight';
+
+	/* color of status indicators and window controls */
+	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
+	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
+	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
+	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+
+	/* accent colors */
+	--accent-1: hsl(190, 70%, 60%); /* links */
+	--accent-2: hsl(190, 70%, 48%); /* general unread/mention elements */
+	--accent-3: hsl(190, 70%, 42%); /* accent buttons */
+	--accent-4: hsl(190, 70%, 36%); /* accent buttons when hovered */
+	--accent-5: hsl(190, 70%, 30%); /* accent buttons when clicked */
+	--mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
+	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
+
+	/* text colors */
+	--text-0: white; /* text on colored elements */
+	--text-1: var(--text-2); /* other normally white text */
+	--text-2: hsl(220, 25%, 70%); /* headings and important text */
+	--text-3: hsl(220, 15%, 60%); /* normal text */
+	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
+	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+
+	/* background and dark colors */
+	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
+	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
+	--bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
+	--bg-4: hsl(220, 15%, 10%); /* main background color */
+	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
+	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
+	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+
+	/* amount of spacing and padding */
+	--spacing: 12px;
+
+	/* animations */
+	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
+	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
+	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
+	--moon-spin-transition: 0.4s ease; /* moon icon spin */
+	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
+
+	/* corner roundness (border-radius) */
+	--roundness-xl: 22px; /* roundness of big panel outer corners */
+	--roundness-l: 20px; /* popout panels */
+	--roundness-m: 16px; /* smaller panels, images, embeds */
+	--roundness-s: 12px; /* members, settings inputs */
+	--roundness-xs: 10px; /* channels, buttons */
+	--roundness-xxs: 8px; /* searchbar, small elements */
+
+	/* direct messages moon icon */
+	/* change to block to show, none to hide */
+	--discord-icon: none; /* discord icon */
+	--moon-icon: show; /* moon icon */
+	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
+	--moon-icon-size: auto;
+
+	/* filter uncolorable elements to fit theme */
+	/* (just set to none, they're too much work to configure) */
+	--login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4); /* login background artwork */
+	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43); /* add friend page explore icon */
+	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2); /* add friend page school icon */
+
+	/* nav buttons */
+	--windows-nav: none;
+	--custom-nav: block;
 }
