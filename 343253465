@@ -43,6 +43,69 @@
   --right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
   --popout-modal-brightness: 0.75; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
+.avatar_c19a55:hover.clickable_c19a55:hover {
+  color: var(--darkplus-sec);
+  transform: scale(1.2) rotate(360deg); 
+  transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+}
+
+
+.membersGroup_c8ffbb {
+  color: var(--darkplus-sec);
+}
+
+.sidebar_c48ade + div {
+  background-color: var(--darkplus-bg);
+}
+
+.theme-dark .container__37e49 {
+  background-color: var(--darkplus-bg);
+}
+
+.chatContent_f75fb0 {
+    max-width: calc(100% - 60px);
+}
+
+
+.title_f75fb0 {
+    z-index: 11;
+}
+
+.members_c8ffbb,
+.membersWrap_c8ffbb, .container_c8ffbb {
+    min-width: 60px;
+    transition-duration: 500ms;
+    transition-property: box-shadow, min-width, width;
+    width: 60px;
+    z-index: 10;
+}
+
+.members_c8ffbb:hover,
+.membersWrap_c8ffbb:hover {
+    min-width: 240px;
+    width: 240px;
+}
+
+.membersWrap_c8ffbb {
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.membersWrap_c8ffbb:hover {
+    box-shadow: 0 0 20px 10px #00000044;
+}
+
+.membersGroup_c8ffbb {
+    height: 0;
+    transition-duration: 500ms;
+    transition-property: height;
+}
+
+.members_c8ffbb:hover .membersGroup_c8ffbb {
+    height: 40px;
+} 
+
   /* Gradient variables */
   --gradient-primary: 103,58,183; /* DEFAULT: 103,58,183 */
   --gradient-secondary: 63,81,181; /* DEFAULT: 63,81,181 */
