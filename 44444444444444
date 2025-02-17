@@ -24,11 +24,11 @@
   --darkplus-links: #cdaef3;
   --darkplus-home-icon: url(https://i.imgur.com/6QxzKRH.png);
   --watermark-filter-invert: 0%;
-  --watermark-filter-sepia: 50%;
-  --watermark-filter-saturate: 3000%;
-  --watermark-filter-hue-rotate: 210deg;
-  --watermark-filter-brightness: 70%;
-  --watermark-filter-contrast: 200%;
+  --watermark-filter-sepia: 0%;
+  --watermark-filter-saturate: 0%;
+  --watermark-filter-hue-rotate: 0deg;
+  --watermark-filter-brightness: 0%;
+  --watermark-filter-contrast: 0%;
 }
 
 .bg__960e4,
