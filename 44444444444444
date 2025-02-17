@@ -18,11 +18,19 @@
 */
 
 :root {
-  /* Background image variables */
-  --background-image: url('https://i.imgur.com/uJNVlhd.png'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --background-image-blur: 0px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
-  --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
-  --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+  --ocean-bg: url(https://i.imgur.com/weOUkrT.png);
+  --ocean-home-icon: url(https://i.imgur.com/knu0gJQ.png);
+  --ocean-color1: #00d5ce;
+  --ocean-color2: #0a173a;
+  --ocean-color3: #1487b1;
+  --watermark-filter-invert: 0%;
+  --watermark-filter-sepia: 50%;
+  --watermark-filter-saturate: 3000%;
+  --watermark-filter-hue-rotate: 150deg;
+  --watermark-filter-brightness: 100%;
+  --watermark-filter-contrast: 200%;
+}
+
 
 :root {
   --darkplus-bg: #212121;
