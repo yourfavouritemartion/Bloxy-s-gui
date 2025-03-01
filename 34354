@@ -123,6 +123,25 @@
   padding: 8px;
   border-radius: 15px;
 }
+.messageContent_c19a55:empty {
+  display: none !important;
+}
+
+.theme-dark .message__89466 {
+  background-color: var(--darkplus-bg2);
+}
+
+.messageContainer__95796 {
+  background-color: var(--darkplus-bg2);
+}
+
+.message__02a39 {
+  background-color: var(--darkplus-bg2);
+}
+
+.newMessagesBar__0f481 {
+  background-color: var(--darkplus-sec);
+}
 
   /* Tint variables */
   --tint-colour: 255,51,159; /* Colour of tint | DEAFULT: 255,51,159 */
