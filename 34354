@@ -48,9 +48,29 @@
   --gradient-secondary: 63,81,181; /* DEFAULT: 63,81,181 */
   --gradient-direction: 320deg; /* DEFAULT: 320deg */
 
+ .members_c8ffbb,
+.membersWrap_c8ffbb, .container_c8ffbb {
+	min-width: 60px;
+	transition-duration: 500ms;
+	transition-property: box-shadow, min-width, width;
+	width: 60px;
+	z-index: 10;
+}
+
   /* Tint variables */
   --tint-colour: 255,51,159; /* Colour of tint | DEAFULT: 255,51,159 */
   --tint-brightness: 0; /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+
+.peopleList__5ec2f,
+.container__9293f.themed__9293f,
+.peopleColumn__133bf,
+.scroller__99e7c,
+.searchBar__35e86,
+.activityPanel_c48ade,
+.container__37e49,
+.scroller__36d07 {
+  background-color: var(--darkplus-bg);
+}
 
   /* Other variables */
   --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
