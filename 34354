@@ -55,6 +55,62 @@
 	transition-property: box-shadow, min-width, width;
 	width: 60px;
 	z-index: 10;
+}
+
+.members_c8ffbb:hover,
+.membersWrap_c8ffbb:hover {
+	min-width: 240px;
+	width: 240px;
+}
+
+.membersWrap_c8ffbb {
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
+
+.membersWrap_c8ffbb:hover {
+	box-shadow: 0 0 20px 10px #00000044;
+}
+
+.membersGroup_c8ffbb {
+	height: 0;
+	transition-duration: 500ms;
+	transition-property: height;
+}
+
+.members_c8ffbb:hover .membersGroup_c8ffbb {
+	height: 40px;
+}
+
+/*.membersWrap_c8ffbb {
+  min-width: unset;
+}
+.membersWrap_c8ffbb .members_c8ffbb {
+  max-width: 65px;
+  min-width: 65px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.membersWrap_c8ffbb .members_c8ffbb:hover {
+  max-width: 240px;
+  min-width: 240px;
+}
+.membersWrap_c8ffbb .members_c8ffbb .content-2a4AW9:not(:hover) {
+  padding-top: 10px;
+  background-color: var(--darkplus-bg);
+}
+
+.membersGroup_c8ffbb {
+  margin-left: 60px;
+  background-color: var(--darkplus-bg);
+  color: var(--darkplus-sec);
+}
+
+.members_c8ffbb,
+.members_c8ffbb > div {
+  background-color: var(--darkplus-bg);
+}
 
 .contents_c19a55 .messageContent_c19a55, .container_b7e1cb {
   background-color: var(--darkplus-bg2);
