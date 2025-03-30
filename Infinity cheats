@@ -1,0 +1,358 @@
+-- New draggable Orion Lib script for hub creations!
+local OrionLib = loadstring(game:HttpGet('https://pastebin.com/raw/wHg0hNvZ'))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "Infinity cheats",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "Name" -- Put the name of your hub or script here!
+})
+
+print("Successfully executed Infinity cheats hub.") -- Just a debug
+
+local Tab = Window:MakeTab({
+    Name = "Info",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Info"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Welcome to Infinity cheats" .. playerName .. "! This is the best hub!",
+    Callback = function()
+    end
+})
+
+Tab:AddButton({
+    Name = "Check out our official discord server in your clipboard.",
+    Callback = function()
+        setclipboard("https://discord.gg/zpqDNRVuSa")
+        toclipboard("https://discord.gg/zpqDNRVuSa")
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Universal",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Universal"
+})
+
+Tab:AddButton({
+    Name = "Infinite Yield",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  end    
+})
+
+
+Tab:AddButton({
+    Name = "Nameless Admin",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Orca hub",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Chat bypass",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/1price/usercreation/refs/heads/main/UserCreation.lua", true))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Bloxfruit",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Bloxfruit"
+})
+
+Tab:AddButton({
+    Name = "Hoho hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "redz hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "alchemy hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "ps99",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "ps99"
+})
+
+Tab:AddButton({
+    Name = "Zap hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "VRT",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Verteniasty/Pet-rbx/refs/heads/main/loadstring"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Pets go",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Pets go"
+})
+
+Tab:AddButton({
+    Name = "Hive",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/iamnotadingus/Hive-Hub/refs/heads/main/RELEASED",true))()
+  end    
+})
+local Tab = Window:MakeTab({
+    Name = "Kat",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Kat"
+})
+
+Tab:AddButton({
+    Name = "King",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui'))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "MM2",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "MM2"
+})
+
+Tab:AddButton({
+    Name = "Flames",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Autofarm/Beta/MM2.lua"))();
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Arsenal",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Arsenal"
+})
+
+Tab:AddButton({
+    Name = "Trapware",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/DP1jZv93"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Mic up",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Mic up"
+})
+
+Tab:AddButton({
+    Name = "mic up",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Crimmy12323/Mic-Up/refs/heads/main/Mic%25Up.txt"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Da hood",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Da hood"
+})
+
+Tab:AddButton({
+    Name = "Azure modded",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Combat warriors",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Combat warriors"
+})
+
+Tab:AddButton({
+    Name = "t1ware",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/t1ware/Rehydra/refs/heads/main/main.lua"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Frontlines",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Frontlines"
+})
+
+Tab:AddButton({
+    Name = "AnyxWare",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnyxWareRblx/Made-By-Got_Seinn_Vater/refs/heads/main/Fontlines",true)()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Dandy's world",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Dandy's world"
+})
+
+Tab:AddButton({
+    Name = "Leaf hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://leafhub.dev/script.lua"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Evade",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Evade"
+})
+
+Tab:AddButton({
+    Name = "King",
+    Callback = function()
+        pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "King legacy",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "King legacy"
+})
+
+Tab:AddButton({
+    Name = "ArcHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Sols rng",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Sols rng"
+})
+
+Tab:AddButton({
+    Name = "Hoho hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Fisch",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Fisch"
+})
+
+Tab:AddButton({
+    Name = "Hoho hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Speed hub x",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end    
+})
